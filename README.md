@@ -26,6 +26,11 @@ I run two products of my own:
 - odds/data normalization, snapshotting and change tracking
 - Linux deploys and production workers
 
-## Public repos
+## Public demos
 
-Most of my real scraping work cannot be public because it contains private endpoints, customer logic, session details or source-specific request handling. Public repos here are cleaned examples that show the workflow without exposing targets.
+- [portal-data-extractor](https://github.com/sirac-dev/portal-data-extractor) - authenticated portal scraping with session reuse, paging, retries and CSV/JSON export
+- [odds-data-pipeline-demo](https://github.com/sirac-dev/odds-data-pipeline-demo) - mock odds feed normalization, snapshots and change tracking
+- [scraper-reliability-kit](https://github.com/sirac-dev/scraper-reliability-kit) - retry, cooldown, health scoring and 403/429 handling against a fake local target
+
+Most of my real scraping work cannot be public because it contains private endpoints, customer logic, session details or source-specific request handling. These repos are cleaned demos that show the workflow without exposing targets.
+
