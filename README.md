@@ -1,22 +1,30 @@
-# Sıraç
+![Profile header](./banner.svg)
+
+### Sıraç
 
 I build scraping, automation and data collection systems.
 
 Most of my work is around websites that do not behave like clean APIs: authenticated portals, changing tables, mobile/web request differences, session handling, rate limits and data that has to stay fresh.
 
-Right now I run two products of my own:
+<p>
+  <img src="https://img.shields.io/badge/Python-automation-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-data%20workers-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-browser%20automation-2EAD33?style=flat-square" />
+  <img src="https://img.shields.io/badge/Elasticsearch-search%20data-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
+</p>
+
+I run two products of my own:
 
 - [OranAnalizcim](https://orananalizcim.com/tr/) - football odds and historical odds analysis
 - [dizifilmyorum](https://dizifilmyorum.com) - TV and film tracking/review platform
 
-## What I work with
+## Work
 
-- Python, Node.js, TypeScript, JavaScript
-- Playwright, Puppeteer, DrissionPage, BeautifulSoup
+- authenticated scraping and browser automation
 - direct API extraction when browser automation is too slow or expensive
 - proxy-aware request flows, cookies, sessions, retries and pacing
-- Elasticsearch, Redis, Express, Next.js, Astro, React Native, Expo
-- Linux servers and production deploys
+- odds/data normalization, snapshotting and change tracking
+- Linux deploys and production workers
 
 ## Public repos
 
